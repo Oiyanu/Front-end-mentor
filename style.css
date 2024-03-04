@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+}
+div {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px 10px;
+    margin: 130px 100px;
+    border-radius: 25px;
+    position: absolute;
+    left: 35%;
+}
+.fig {
+    max-width: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+p{
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-size: 11px;
+    color: hsl(220, 15%, 55%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:900px) {
+   div{ position: absolute;
+    left: 25%;
+   }
+}
+@media screen and (max-width:700px) {
+    div{ position: absolute;
+     left: 15%;
+    }
+ }
+ @media screen and (max-width:500px) {
+    div{ position: absolute;
+     left: 5%;
+    }
+ }
+ @media screen and (max-width:375px) {
+    div{ 
+        margin: 130px 45px;
+    }
+ }
+ @media screen and (max-width:350px) {
+    div{ 
+        margin: 130px 30px;
+    }
+ }
